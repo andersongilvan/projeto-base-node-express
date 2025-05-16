@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    // Typeorm
+    /*"emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    */
+  },
+  "include": [
+    "src/**/*",
+   // "src/DataSource.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

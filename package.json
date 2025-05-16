@@ -1,0 +1,20 @@
+{
+  "name": "Projeto ts express node base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev" : "ts-node-dev --respawn --transpile-only server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.18",
+    "prisma": "^6.8.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.8.2",
+    "express": "^5.1.0"
+  }
+}
